@@ -1,0 +1,27 @@
+<div layout="column" layout-align="space-around center" class="login-container">
+    <div class="app-title">Welcome to Redhat Assignment</div>
+    <div layout="column" class="login-form-container">
+
+        <md-input-container>
+            <label>User Name</label>
+            <input type="text"
+                   name="username"
+                   ng-model="userinfo.username"
+                   ng-pattern-restrict="^[A-Za-z0-9\_\-\@\.]*$"
+                   minlength="1" maxlength="75"/>
+        </md-input-container>
+        <md-input-container>
+            <label>Password</label>
+            <input type="password"
+                   name="password"
+                   ng-model="userinfo.password"
+                   ng-pattern-restrict="^[A-Za-z0-9\_\-\@\!]*$"
+                   minlength="1" maxlength="75"/>
+        </md-input-container>
+
+        <md-button class="md-raised md-primary" ng-click="login()">Login</md-button>
+    </div>
+
+
+</div>
+

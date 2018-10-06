@@ -1,0 +1,14 @@
+<div layout="column"  layout-align="space-around center">
+    <div class="app-title">Task Views</div>
+    <div layout="column" class="task-table-container">
+        <div layout="row" flex="50">
+
+        </div>
+        <div layout="row" flex="50" layout-align="end center">
+            <md-button class="md-icon-button md-accent" ng-click="toggleFiltering()">
+                <ng-md-icon icon="filter_list" class="filter-list-icon"></ng-md-icon>
+            </md-button>
+        </div>
+        <div id="grid1" ui-grid="gridOptions" ui-grid-resize-columns ui-grid-move-columns ui-grid-auto-resize ui-grid-selection class="grid"></div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+/* app css stylesheet */
+
+.login-container {
+  min-height: 400px
+}
+
+.login-form-container {
+  width: 50%;
+}
+
+.app-title {
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.04;
+  font-size: x-large;
+}
+
+.task-table-container {
+  max-width: 800px;
+  min-width: 800px;
+}
+
+.filter-list-icon {
+  fill:gray !important;
+}
